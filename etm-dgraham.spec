@@ -1,12 +1,11 @@
 Summary:	Event and task manager
 Name:		etm-dgraham
-Version:	5.1.4
+Version:	5.1.8
 Release:	1
 License:	GPL
 Group:		Applications/Text
 Source0:	https://files.pythonhosted.org/packages/source/e/etm-dgraham/%{name}-%{version}.tar.gz
-# Source0-md5:	2b67de9ef007dcbd562b063d67f1220d
-Patch0:		tinydb-compat.patch
+# Source0-md5:	84c442a7f15455df30119188daaceb94
 URL:		https://dagraham.github.io/etm-dgraham/
 BuildRequires:	python3 >= 1:3.7.3
 BuildRequires:	python3-modules >= 1:3.7.3
@@ -24,7 +23,6 @@ Knife of tools for managing reminders.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %py3_build
