@@ -1,11 +1,11 @@
 Summary:	Event and task manager
 Name:		etm-dgraham
-Version:	5.1.8
+Version:	5.1.12
 Release:	1
 License:	GPL
 Group:		Applications/Text
 Source0:	https://files.pythonhosted.org/packages/source/e/etm-dgraham/%{name}-%{version}.tar.gz
-# Source0-md5:	84c442a7f15455df30119188daaceb94
+# Source0-md5:	8963d19c28e058db5b666d94be514b04
 URL:		https://dagraham.github.io/etm-dgraham/
 BuildRequires:	python3 >= 1:3.7.3
 BuildRequires:	python3-modules >= 1:3.7.3
